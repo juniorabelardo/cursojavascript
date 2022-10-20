@@ -1,28 +1,59 @@
 // EJEMPLOS 
-//OPERADOR DE ASIGNACION
-// (+=) X+=2  Es equivalente a: x=x+2= 7
-// (-=) x-=2  Es equivalente a: x=x-2=5
-// (*=) x*=2  Es equivalente a: x=x*2=14
-// (/=) x/=2  Es equivalente a: x=x/2=3.5
+/*---------------------------------------------------*/
+//1.1 OPERADOR DE ASIGNACION
+const z = (x = y); // O de forma equivalente: const z = x = y;
 
+console.log(z); // Registra el valor de retorno de la asignación x = y.
+console.log(x = y); // O registra el valor de retorno directamente.
+
+/*---------------------------------------------------*/
 // EJEMPLOS :
-// OPERADORES DE COMPARACIÓN :
-//	3 == var1 
-// "3" == var1 
-// 3 == '3'
+// 1.2 OPERADORES DE COMPARACIÓN :
+var var1 = 3;
+var var2 = 4;
 
-//var1 
-// != 4 var2 
-// !== "3"
+/*---------------------------------------------------*/
+//EJEMPLOS : 
+// 1.3 OPERADORES ARITMÉTICOS 
+1 / 2; // 0.5
+1 / 2 == 1.0 / 2.0; // Esto es true
 
-// 3 === var1
+/*---------------------------------------------------*/
+//EJEMPLOS : 
+// 1.4 OPERADORES DE BIT A BIT: 
+// Antes:  1110 0110 1111 1010 0000 0000 0000 0110 0000 0000 0001
+// Después:               1010 0000 0000 0000 0110 0000 0000 0001
 
-// var1 !== "3" //3
-//!== '3'
+/*---------------------------------------------------*/
+//EJEMPLOS: 
+// 1.5 OPERADORES LÓGICOS : 
+var a1 =  true && true;     // t && t devuelve true
+var a2 =  true && false;    // t && f devuelve false
+var a3 = false && true;     // f && t devuelve false
+var a4 = false && (3 == 4); // f && f devuelve false
+var o1 =  true || true;     // t || t devuelve true
+var o2 = false || true;     // f || t devuelve true
+var o3 =  true || false;    // t || f devuelve true
+var o4 = false || (3 == 4); // f || f devuelve false
 
-//var2 > var1 "12" > 2
+/*---------------------------------------------------*/
+//EJEMPLOS: 
+// 1.6 OPERADORES RELACIONALES: 
+// Arreglos
+var trees = ['redwood', 'bay', 'cedar', 'oak', 'maple'];
+0 in trees;        // devuelve true
+3 in trees;        // devuelve true
+6 in trees;        // devuelve false
+'bay' in trees;    // devuelve false (debes especificar el número del índice,
+                   // no el valor en ese índice)
+'length' en trees; // devuelve true (la longitud es una propiedad de Array)
 
-//var2 >= var1 var1 >= 3
+// objetos integrados
+'PI' in Math;          // devuelve true
+var myString = new String('coral');
+'length' in myString;  // devuelve true
 
-// var1 < var2 "2" < 12
-// var1 <= var2 var2 <= 5
+// Objetos personalizados
+var mycar = { make: 'Honda', model: 'Accord', year: 1998 };
+'make' in mycar;  // devuelve true
+'model' in mycar; // devuelve true
