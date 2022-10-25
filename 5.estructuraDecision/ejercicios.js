@@ -133,3 +133,10 @@
 // else
 // println (" el numero es negativo ");
 // }
+ a= 40
+ b= 4
+ if(b==0){
+     console.log("error")
+ }   else{
+     console.log(a/b)
+ }
