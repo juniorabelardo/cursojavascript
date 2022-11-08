@@ -15,6 +15,21 @@
 
 
 
-// function calculadora(num1,num2,operacion){retur total}
+// function calculadora(num1,num2,operacion){return total}
+function calcular (num1,num2,operacion){
+    if(operacion=="suma"){
+        total=num1+num2
+    }
+    if(operacion=="resta"){
+        total=num1-num2
+    }
+    if(operacion=="multiplicacion"){
+        total=num1*num2
+    }
+    if(operacion=="division"){
+        total=num1/num2
+    }
+    return total
+    }
 
-calculadora(45,12,'resta')//33
+console.log(calcular(45,12,"resta"))
