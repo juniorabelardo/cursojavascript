@@ -1,0 +1,104 @@
+.bandera{
+    width: 700px;
+    height: 300px; 
+    
+}
+.borrar{
+    width: 700px;
+    height: 300px; 
+}
+.per{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 700px;
+    height: 300px;    
+}
+.rojo{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+.blanco{
+    width: 200px;
+    height: 300px;
+    background-color:white;
+    
+}
+.rojo2{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+
+
+.arg{    
+    align-items: center;
+    width: 700px;
+    height: 300px;    
+}
+.celeste{
+    width: 600px;
+    height: 100px;
+    background-color: cyan;
+
+}
+.blanco1{
+    width: 600px;
+    height: 100px;
+    background-color: white;
+}
+.celeste2{
+    width: 600px;
+    height: 100px;
+    background-color: cyan;
+}
+
+
+.ale{
+    
+       
+    align-items: center;
+    width: 700px;
+    height: 300px;    
+}
+.negro{
+    width: 600px;
+    height: 100px;
+    background-color: black;
+
+}
+.amarillo{
+    width: 600px;
+    height: 100px;
+    background-color: yellow;
+}
+.rojo3{
+    width: 600px;
+    height: 100px;
+    background-color: red;
+}
+
+
+.fra{
+    display: flex;
+    flex-direction: row;
+}
+.azul{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+}
+.blanco3{
+    width: 200px;
+    height: 300px;
+    background-color:white;
+    
+}
+.rojo4{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
